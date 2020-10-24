@@ -1,6 +1,6 @@
 # Music Retail Analysis
 ## Introduction
-A analysis of music retail has been conducted. This data was downloaded on [SQL Tutorial website](https://www.sqlitetutorial.net/sqlite-sample-database/). Before analysis data is applied, the data is collected from few tables of SQL file, there are artists, albums, tracks, genres, invoice_items, invoices and customers. By these tables, the data have 11 columns and 2240 rows, where the columns are 
+A analysis of music retail has been conducted. This data was downloaded on [SQL Tutorial website](https://www.sqlitetutorial.net/sqlite-sample-database/). Before analysis data is applied, the data is combined from few tables of SQL file, there are artists, albums, tracks, genres, invoice_items, invoices and customers. By these tables, the data have 11 columns and 2240 rows, where the columns are 
 1. ArtistName
 2. Title
 3. ComposerName
@@ -12,6 +12,8 @@ A analysis of music retail has been conducted. This data was downloaded on [SQL 
 9. First Name
 10. Last Name
 11. Country
+
+To combine tables data from SQL, use [analysis_chinook.sql](https://github.com/auliakhalqillah/MusicRetail_Analysis/blob/main/analysis_chinook.sql) file
 
 ## Overview
 Data cleaning has been applied. By 596 data are missing data in ComposerName column. Then, these missing data was replaced by 'unknown'. In general, by 165 artists, 573 composers, 24 genres, and 24 customer countries are collected in last 4 years, from 2009-01-01 to 2013-12-22.
